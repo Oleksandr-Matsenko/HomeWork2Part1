@@ -206,17 +206,26 @@ print("\nРозділ 1.4 Кортежі\n")
      print("Температура: \(weatherInfo.1)")
 
  */
+var profileInfo = (firstName: "Ivan", secondName: "Shevchenko", age: 22, height: 1.78, weigth: 90, isMarried: false )
+profileInfo.firstName = "Peter"
+profileInfo.secondName = "Pen"
 
-print("Прізвище: ")
-print("Вік: ")
-print("Зріст: см")
-print("Вага: кг")
-print("У шлюбі: ")
+print("Прізвище: \(profileInfo.secondName)")
+print("Вік: \(profileInfo.age)")
+print("Зріст: \(profileInfo.height)см")
+print("Вага: \(profileInfo.weigth)кг")
+print("У шлюбі: \(profileInfo.isMarried)")
+
+
+var weatherInfo = (humidity, temperature, pressure)
+weatherInfo.1 = 19
+weatherInfo.0 = 120
+weatherInfo.2 = 75
 
 print("\nІнфорація про погоду:")
-print("Тиск: hPa")
-print("Вологість: %")
-print("Температура: C")
+print("Тиск: \(weatherInfo.2)hPa")
+print("Вологість: \(weatherInfo.0)%")
+print("Температура: \(weatherInfo.1)C")
 
 
 print("\nРозділ 1.5 Опціонали\n")
