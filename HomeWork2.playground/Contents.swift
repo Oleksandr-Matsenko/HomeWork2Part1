@@ -32,11 +32,15 @@ print("Розділ 1.1 Константи\n")
      print("Ім'я хатньої тварини: \(myPetName)")
 
  */
+let catName = "Tom"
+let catWeight = 10.0
+let catAge = 4
+let isHungry: Bool = false
 
-print("Ім'я хатньої тварини: ")
-print("Вага хатньої тварини: кг")
-print("Вік хатньої тварини: років")
-print("Хатня тварина голодна: ")
+print("Ім'я хатньої тварини: \(catName)")
+print("Вага хатньої тварини: \(catWeight)кг")
+print("Вік хатньої тварини: \(catAge)років")
+print("Хатня тварина голодна: \(isHungry)")
 
 
 print("\nРозділ 1.2 Змінні\n")
